@@ -1,6 +1,6 @@
 function update_captions(){
   if(window.innerWidth < 520){
-    captions = ["Coffee", "Panini",
+    captions = ["Coffee", "Maggi",
       "Idea", "Code",
       "<span style='display:inline-block;line-height:11px;vertical-align:middle'>Deep Learning</span>",
       "<span style='font-size:11px;display:inline-block;line-height:11px;vertical-align:middle'>See Supervisor</span>",
@@ -12,7 +12,7 @@ function update_captions(){
       "<span style='font-size:11px;'>Break-up</span>"];
   }
   else{
-    captions = ["Coffee", "Panini",
+    captions = ["Coffee", "Maggi",
       "Idea", "Code",
       "<span style='font-size:24px;display:inline-block;line-height:24px;vertical-align:middle'>Deep Learning</span>",
       "<span style='font-size:20px;display:inline-block;line-height:20px;vertical-align:middle'>See Supervisor</span>",
@@ -126,7 +126,7 @@ function determine_zh_var(){
 }
 
 function use_simplified(){
-  captions = ["Coffee", "Panini",
+  captions = ["Coffee", "Maggi",
     "想法", "代码", "<span style='display:inline-block;line-height:30px;vertical-align:middle'>深度<br>学習</span>", "见导师",
     "实验", "Paper", "会议", "答辩", "PhD",
     "薄厚", "僵尸", "Reader", "叫兽"];
@@ -148,7 +148,7 @@ function use_simplified(){
 }
 
 function use_traditional(){
-  captions = ["Coffee", "Panini",
+  captions = ["Coffee", "Maggi",
     "想法", "原始碼", "<span style='display:inline-block;line-height:30px;vertical-align:middle'>深度<br>學習</span>", "見導師",
     "實驗", "Paper", "會議", "答辯", "PhD",
     "薄厚", "老屍", "Reader", "叫獸"];
